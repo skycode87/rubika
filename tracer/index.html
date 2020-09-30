@@ -5,19 +5,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" type="image/png" href="assets/favicon/favicon.ico">
-        <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16assets/faviconx16" href="/favicon-16x16.png">
-        <link rel="manifest" href="assets/favicon/manifest.json">
         <meta name="msapplication-TileColor" content="#ffffff">
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
@@ -35,7 +22,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
 
-        <title>Qreatech SAS</title>
+        <title>Qreatech SAS | Web analytics service that tracks and reports website traffic</title>
 
         <style>
        
@@ -85,6 +72,10 @@
     font-size: 20px;
     color: #e9ecef;
 }  
+
+.iconMobile{
+    display: none;
+}
 
 .hero-banner-content{
     position: relative;
@@ -143,6 +134,12 @@
         }
 
 
+        .iconMobile{
+            display: block;
+            margin: auto;
+        }
+
+
         .main-banner-content h2 {
             font-size: 18px;
             width: 100%;
@@ -158,6 +155,28 @@
     padding-bottom: 50px;
       
     }
+
+}
+
+
+
+@media only screen and (max-width: 750px){
+
+.hero-banner-content h1{
+            padding-top: 50px;
+
+        }
+
+        .hero-banner-content {
+        text-align: center;
+        max-width: 95%;
+        margin: auto;
+    }
+
+    .hero-banner {
+    padding-top: 195px;
+    padding-bottom: 0px !important;
+}
 
 }
 
@@ -238,26 +257,17 @@
                 </div>
             </div>
 
-            <div class="others-option-for-responsive">
+          <div class="others-option-for-responsive">
                 <div class="container">
                     <div class="dot-menu">
                         <div class="inner">
-                            <div class="circle circle-one"></div>
-                            <div class="circle circle-two"></div>
-                            <div class="circle circle-three"></div>
+                          
                         </div>
                     </div>
                     
                     <div class="container">
                         <div class="option-inner">
                             <div class="others-option">
-                                <div class="option-item">
-                                    <form class="search-box">
-                                        <input type="text" class="input-search" placeholder="Search for anything">
-                                        <button type="submit"><i class="flaticon-loupe"></i></button>
-                                    </form>
-                                </div>
-
                                 <div class="option-item">
                                     <a href="contact.html" class="default-btn"><i class="flaticon-right"></i>Contactanos<span></span></a>
                                 </div>
@@ -266,6 +276,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
         <!-- End Navbar Area -->
 
@@ -277,6 +288,7 @@
                     <div class="row">
                         <div class="col-lg-5 col-md-12">
                             <div class="hero-banner-content">
+                                <img src="assets/img/qrea/banner1/img6.png" class="wow fadeInDown  sub-title iconMobile" data-wow-delay="1500ms" data-wow-duration="1000ms" alt="image" width="100px">
                                 <h1 class="wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1000ms">Web Inteligentes</h1>
                                 <p class="wow fadeInLeft" data-wow-delay="100ms" data-wow-duration="1000ms">Gracias a la Inteligencia Artificial, tu página evolucionara de acuerdo a lo que tus clientes necesitan!. Logra que tus usuarios interactuen con tu página web de forma más sencilla y fluida.</p>
                                 <div class="btn-box">
@@ -298,7 +310,7 @@
                                 <img src="assets/img/qrea/banner1/img8.png" class="wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image">
                                 <img src="assets/img/qrea/banner1/img9.png" class="wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image">
                                 <img src="assets/img/qrea/banner1/img10.png" class="wow fadeInDown" data-wow-delay="500ms" data-wow-duration="1000ms" alt="image">
-                                <img src="assets/img/qrea/banner.svg" class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1000ms" alt="image">
+                                <img src="assets/img/qrea/banner.svg" class="wow fadeInUp" style="position: absolute; display: none;" width="60px" data-wow-delay="00ms" data-wow-duration="1000ms" alt="image">  
                             </div>
                                            
 
